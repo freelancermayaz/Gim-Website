@@ -1,0 +1,232 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  #choose_left .choose_left_img img{
+    width: 95px;
+    height: 143px;
+    margin-left: 29px;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  #img_gim_frist {
+    width: 280px;
+    height: 280px;
+}
+#img_gim_frist img{
+  width: 280px;
+  height: 280px;
+}
+#transfrom_your_and_services{
+  width: 57%;
+}
+#transfrom_your_and_services .our_services_one{
+  display: none;
+}
+#fast_section .our_services_too{
+  display: block;
+}
+
+#our_services .group_classe{
+  width: 45%;
+}
+
+#our_services .personal_traning{
+  width: 45%;
+}
+#top_section{
+  padding: 50px 0px;
+}
+#choos_right .img_heddin{
+  display: block;
+  margin-top: 30px;
+}
+#choos_right .heddin_img{
+  display: none;
+}
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+
+  #top_section{
+    padding: 60px 0px;
+  }
+  #img_gim_frist{
+    width: 300px;
+    height: 300px;
+    float: none;
+    margin: auto;
+  }
+  #img_gim_frist img{
+    width: 300px;
+    height: 300px;
+  }
+  #transfrom_your_and_services{
+    width: auto;
+    float: none;
+    margin-top: 50px;
+  }
+  #our_services .group_classe,#our_services .personal_traning{
+    width: 44%;
+    margin-top: 25px;
+  }
+  div#our_services {
+    margin-top: 40px;
+}
+#all_plan_display{
+  width: 47%;
+}
+#choose_left .choose_left_img img{
+  width: 90px;
+  height: 131px;
+  margin-left: 22px;
+}
+#choos_right .img_heddin{
+  display: inline-block;
+}
+#choos_right img {
+  margin-top: 14px; 
+}
+#contuct_us .contuct_left p{
+  font-size: 14px;
+}
+#contuct_us .fa-brands{
+  font-size: 20px;
+}
+#contuct_us .fa-square-x-twitter{
+  height: 17px;
+}
+
+
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+
+  header .top_logo i{
+    font-size: 24px;
+    height: auto;
+    width: auto;
+  }
+  #img_gim_frist {
+    width: 280px;
+    height: 280px;
+    float: none;
+  }
+  #img_gim_frist img{
+    width: 280px;
+    height: 280px;
+  }
+  #transfrom_your_and_services{
+    width: auto;
+    float: none;
+  }
+  #top_section{
+    padding: 20px 0px;
+  }
+  div#transfrom_your_body {
+    margin-top: 25px;
+  }
+  #our_services .group_classe,#our_services .personal_traning{
+    width: auto;
+    
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+  }
+  #all_plan_display{
+    width: auto;
+    display: block;
+    margin-right: auto;
+  }
+  #choose_left, #choos_right{
+    display: block;
+  }
+  #choose_left{
+    width: auto;
+    border: none;
+    float: none;
+  }
+  #choose_left .choose_left_img img{
+    width: 115px;
+    height: 151px;
+    margin-left: 18px;
+  }
+  #choos_right{
+    float: none;
+    width: auto;
+  }
+  footer{
+    height: auto;
+  }
+  #contuct_us .contuct_left{
+    float: none;
+    display:block;
+  }
+  #contuct_us .contuct_right{
+    float: none;
+  }
+  footer #copyRight{
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  #contuct_us .fa-brands{
+    margin-top:10px;
+    font-size: 25px;
+    margin-left: 45px;
+  }
+  #contuct_us .fa-square-x-twitter{
+    height: 23px;
+  }
+  #contuct_us .contuct_left, #contuct_us .contuct_right{
+    display: block;
+  }
+  
+}
